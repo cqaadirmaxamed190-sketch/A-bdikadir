@@ -1,0 +1,2 @@
+# A-bdikadir
+technology
