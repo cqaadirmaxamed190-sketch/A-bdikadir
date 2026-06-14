@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background: #89eb80;
+}
+header{
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background: violet;
+    text-align: center;
+    padding: 15px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.left{
+    width: 48%;
+    float: left;
+    background: white;
+    padding: 20px;
+}
+.right{
+    width: 48%;
+    float: right;
+    background: white;
+    padding: 20px;
+    margin-top: 200px;
+}
+.n{
+    margin-left: 50px;
+}
+.member{
+    width: 200px;
+    height: 220px;
+    background-color: #09e5fa;
+    overflow: scroll;
+    margin-left: 30px;
+}
+.member img{
+    float: left;
+    margin-right: 80px;
+}
+.A{
+    margin-left: 910px;
+}
+.member1{
+    width: 250px;
+    height: 250px;
+    background-color: #0935fa;
+    overflow: auto;
+    margin-left: 900px;
+}
+.member1 img{
+    float: right;
+    margin-right: 10px;
+}
+.b{
+    margin-left: 50px;
+}
+.member2{
+    width: 300px;
+    height: 300px;
+    background-color: #99e015;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.member2 img{
+    float: left;
+    margin-right: 10px;
+}
+.c{
+    margin-left: 915px;
+}
+.member3{
+    width: 300px;
+    height: 350px;
+    background-color: #d61aa7;
+    overflow: inherit;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-left: 900px;
+}
+.member3 img{
+    float: right;
+    margin-right: 10px;
+}
+
+form{
+    background: white;
+    padding: 30px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 400px;
+}
+.h2{
+text-align: center;
+margin-bottom: 20px;
+color: #e642a7;
+}
+label{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1986df;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #06db11cc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 10px;
+    
+}
+input[type="submit"],
+input[type="reset"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+input[type="submit"]{
+    background: blueviolet;
+    color: white;
+}
+input[type="submit"]:hover{
+    background: darkorange;
+}
+input[type="reset"]{
+    background: blueviolet;
+    color: white;
+    margin-left: 10px;
+}
+input[type="reset"]:hover{
+    background: brown;
+}
+.contact form{
+    width: 600px;
+    margin: 20px auto;
+    background: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+}
+.contact input,textarea{
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid hsl(0, 62%, 83%);
+    border-radius: 5px;
+}
+.contact textarea{
+    width: 120px;
+    height: 120px;
+}
+button{
+    width: 300px;
+    padding: 10px;
+    background: darkmagenta;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+button:hover{
+    background: bisque;
+}
+footer{
+    background-color: rgb(223, 39, 183);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
